@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .main {
+            width: 500px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .first {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: aqua;
+            font-size: 19px;
+            border: 1px solid black;
+
+        }
+
+        .second {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border: 1px solid black;
+
+        }
+
+        .image {
+            display: flex;
+            flex-direction:row;
+            justify-content: space-around;
+        }
+        .image1{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 250px;
+            width: 200px
+            
+        ;
+        }
+    
+
+        .third {
+            background-color: red;
+            border: 1px solid black;
+
+        
+        
+        
+        
+        }
+        iframe{
+            background-color: violet;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="first">
+            <iframe src="/icons8-mail-48.png" frameborder="0"></iframe>
+            <h2>CREATING</h1>
+
+            <h1>email magic</h2>
+        </div>
+        <div class="second">
+            <h1>Lorem ipsum dolor sit.</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa rem fugiat maxime cumque quasi, delectus
+                similique quibusdam ullam numquam autem.</p>
+            <div class="image">
+                <div class="image1">
+                    <img src="/computer.jpg" height="100px" width="200px" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur a impedit earum porro non voluptas sequi at maiores deleniti omnis ut esse ipsum!</p></div>
+                    <div class="image1">
+                        <img src="/computer2.jpg" height="100px" width="200px" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur a impedit earum porro non voluptas sequi at maiores deleniti omnis ut esse ipsum!</p></div>
+                   
+
+            </div>
+          
+
+        </div>
+        <div class="third">
+            <h2>@Someone,somewhere 2013 unsubcribe to this newsletter instantity</h2>
+            
+          </div>
+    </div>
+
+</body>
+
+</html>
